@@ -44,6 +44,10 @@ let arr = [
       { id: 7, name: 'mamooka', age: 65, profession: 'developer' },
     ]
     arr = arr.concat(brr);
+    // or 
+    // for(let i =0;i<brr.length;i++){
+    //   arr.push(brr[i]);
+    // }
     console.log(arr);
     //Write your code here, just console.log
   }
